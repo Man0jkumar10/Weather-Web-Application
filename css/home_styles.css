@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 1.5rem;
+}
+
+#about, #forecast {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.weather-form input {
+    width: 100%;
+    padding: 10px;
+}
+
+.weather-form button {
+    width: 100%;
+    padding: 10px;
+}
+
+#weatherResult {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}

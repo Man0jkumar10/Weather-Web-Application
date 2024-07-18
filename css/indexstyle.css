@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom, #87CEEB, #f0f8ff); /* Gradient from sky blue to light blue */
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 100px 25px;
+    background-image: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+.jumbotron h1 {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.jumbotron p {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+#about {
+    background-color: purple; 
+    color: white;
+    padding: 50px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: rgb(78, 116, 243);
+    padding: 20px 0;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #0056b3, #007bff);
+}
